@@ -1,6 +1,6 @@
 module github.com/pingcap/tidb-dashboard
 
-go 1.18
+go 1.25.0
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.0
@@ -51,7 +51,7 @@ require (
 	go.uber.org/goleak v1.1.10
 	go.uber.org/zap v1.19.0
 	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
-	golang.org/x/sync v0.1.0
+	golang.org/x/sync v0.20.0
 	google.golang.org/grpc v1.25.1
 	google.golang.org/protobuf v1.30.0
 	gorm.io/datatypes v1.1.0
@@ -107,14 +107,15 @@ require (
 	go.uber.org/dig v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
 	golang.org/x/arch v0.3.0 // indirect
-	golang.org/x/crypto v0.9.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
 	golang.org/x/exp v0.0.0-20220303212507-bbda1eaf7a17 // indirect
 	golang.org/x/image v0.0.0-20200119044424-58c23975cae1 // indirect
 	golang.org/x/lint v0.0.0-20201208152925-83fdc39ff7b5 // indirect
-	golang.org/x/net v0.10.0 // indirect
-	golang.org/x/sys v0.8.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
-	golang.org/x/tools v0.6.0 // indirect
+	golang.org/x/net v0.54.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/tools v0.44.0 // indirect
+	golang.org/x/tools/godoc v0.1.0-deprecated // indirect
 	google.golang.org/appengine v1.4.0 // indirect
 	google.golang.org/genproto v0.0.0-20190927181202-20e1ac93f88c // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
